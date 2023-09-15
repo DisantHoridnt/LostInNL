@@ -15,24 +15,24 @@ Every year, numerous individuals go missing in Newfoundland. The primary objecti
 ## Setup & Installation
 1. Clone the repository:
 
-\```bash
+```bash
 git clone https://github.com/PrinceDisant/LostInNL.git
-\```
+```
 
 2. Navigate to the project directory and install the required dependencies (if any):
 
-\```bash
+```bash
 cd path_to_directory
 pip install -r requirements.txt
-\```
+```
 
 3. Provide additional setup steps, such as database configurations, environment variable setup, etc.
 
 4. Run the application:
 
-\```bash
+```
 flask run
-\```
+```
 
 ## Features
 

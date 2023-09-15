@@ -6,16 +6,16 @@ Thank you for your interest in contributing! This document provides guidelines a
 1. Fork the repository on GitHub.
 2. Clone your fork:
 
-\```bash
+```
 git clone [your_fork_link]
-\```
+```
 
 3. Set up the project locally following the setup instructions in the README.
 4. Create a new branch for your feature or bugfix:
 
-\```bash
+```
 git checkout -b feature/your_feature_name
-\```
+```
 
 ## Development Guidelines
 - Follow the coding style and standards used in the project.
