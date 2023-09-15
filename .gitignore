@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Virtual environment
+venv/
+*.venv/
+*.virtualenv/
+
+# Flask instance folder
+instance/
+
+# SQLite database file (if used)
+*.db
+*.sqlite
+
+# Configuration files with sensitive info
+config.py
+*.env
+
+# Logs
+logs/
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# History directory (IDE or editor specific)
+.history/
