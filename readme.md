@@ -16,7 +16,7 @@ Every year, numerous individuals go missing in Newfoundland. The primary objecti
 1. Clone the repository:
 
 \```bash
-git clone [repository_link]
+git clone https://github.com/PrinceDisant/LostInNL.git
 \```
 
 2. Navigate to the project directory and install the required dependencies (if any):
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 4. Run the application:
 
 \```bash
-[command_to_run_application]
+flask run
 \```
 
 ## Features
@@ -52,6 +52,7 @@ This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICEN
 ---
 ## Directory structure:
 
+\```bash
 /LostInNL/
 |-- /flaskapp/
 |   |-- __init__.py
@@ -73,3 +74,4 @@ This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICEN
 |-- CONTRIBUTING.md
 |-- LICENSE
 |-- .gitignore
+\```
