@@ -52,7 +52,7 @@ This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICEN
 ---
 ## Directory structure:
 
-\```bash
+```
 /LostInNL/
 |-- /flaskapp/
 |   |-- __init__.py
@@ -74,4 +74,4 @@ This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICEN
 |-- CONTRIBUTING.md
 |-- LICENSE
 |-- .gitignore
-\```
+```
