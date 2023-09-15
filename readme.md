@@ -44,7 +44,7 @@ pip install -r requirements.txt
 We welcome contributions! If you're interested in contributing, please read our [Contribution Guidelines](CONTRIBUTING.md) to get started.
 
 ## License
-This project is licensed under the [NAME OF LICENSE - e.g., MIT License]. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Thank any collaborators, third-party resources/libraries, or others who have influenced the project.
