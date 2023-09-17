@@ -10,7 +10,7 @@ A dedicated platform to store and disseminate information about individuals who 
 - [Acknowledgments](#acknowledgments)
 
 ## Project Overview
-Every year, numerous individuals go missing in Newfoundland. The primary objective of this application is to serve as a central hub where information about these individuals can be stored, accessed, and disseminated, assisting in the search and creating awareness in the community.
+Every year, numerous individuals go missing in Newfoundland. The primary objective of this application is to serve as a central hub where information about these individuals can be stored, accessed, and disseminated; assisting in the search and creating awareness in the community.
 
 ## Setup & Installation
 1. Clone the repository:
