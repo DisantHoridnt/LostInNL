@@ -1,0 +1,40 @@
+{% extends '../base.html' %}
+
+{% block title %} - Contact{% endblock %}
+{% block content %}
+<main class="container mt-5">
+    <section id="contact-section">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <p class="text-center mb-4">
+            If you have questions, concerns, or feedback, feel free to get in touch with our team using the form below. We're here to help.
+        </p>
+
+        <div class="contact-form-container bg-light p-5 rounded shadow">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="contactName">Name:</label>
+                    <input type="text" class="form-control" id="contactName" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactEmail">Email:</label>
+                    <input type="email" class="form-control" id="contactEmail" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactSubject">Subject:</label>
+                    <input type="text" class="form-control" id="contactSubject" placeholder="Subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactMessage">Message:</label>
+                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+
+                <input type="submit" class="btn btn-primary" value="Send Message">
+                <p id="contactErrorMsg" class="text-danger mt-2"></p>
+            </form>
+        </div>
+    </section>
+</main>
+{% endblock %}

@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  a {
+    transition: color 0.3s;
+  }
+  a:hover {
+    color: #0056b3;
+  }
+  header {
+    background: url("newfoundland_cover.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  .custom-container {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .custom-input {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .custom-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .custom-submit:hover {
+    background-color: #0056b3;
+  }
+  #contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #contactErrorMsg {
+    margin-top: 1rem;
+  }
+  header.header-overlay {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("newfoundland_cover.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  header.header-overlay h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
