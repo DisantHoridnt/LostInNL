@@ -23,19 +23,26 @@ Every year, numerous individuals go missing in Newfoundland. The primary objecti
     git clone https://github.com/PrinceDisant/LostInNL.git
     ```
 
-2. Navigate to the project directory and install the required dependencies (if any):
+2. Navigate to the project directory and set up the virtual environment (if necessary):
 
     ```bash
-    cd path_to_directory
+    cd LostInNL
+    source virt/bin/activate  # For Unix-based systems
+    ```
+
+3. Navigate to the server directory and install the required dependencies:
+
+    ```bash
+    cd server
     pip install -r requirements.txt
     ```
 
-3. Provide additional setup steps, such as database configurations, environment variable setup, etc.
+4. Provide additional setup steps, such as database configurations, environment variable setup, etc.
 
-4. Run the application:
+5. Run the application:
 
     ```bash
-    flask run
+    python manage.py runserver
     ```
 
 ## Features
@@ -62,24 +69,30 @@ This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICEN
 
 ```bash
 /LostInNL/
-|-- /flaskapp/
-|   |-- __init__.py
-|   |-- routes.py
-|   |-- /static/
-|   |   |-- styles.css
-|   |   |-- scripts.js
-|   |   |-- newfoundland_cover.jpg
-|   |-- /templates/
-|   |   |-- index.html
-|   |   |-- listings.html
-|   |   |-- contact.html
-|   |   |-- resources.html
-|   |   |-- submit.html
-|-- config.py
-|-- run.py
-|-- requirements.txt
-|-- README.md
-|-- CONTRIBUTING.md
+|-- CONTRIBUTING.MD
 |-- LICENSE
+|-- readme.md
+|-- /server/
+| |-- manage.py
+| |-- requirements.txt
+| |-- /website/
+| | |-- init.py
+| | |-- admin.py
+| | |-- apps.py
+| | |-- models.py
+| | |-- urls.py
+| | |-- views.py
+| | |-- /templates/
+| | | |-- base.html
+| | | |-- /website/
+| | | | |-- contact.html
+| | | | |-- index.html
+| | | | |-- listings.html
+| | | | |-- resources.html
+| | | | |-- submit.html
+| | | | |-- styles.css
+| | | | |-- scripts.js
+| | | | |-- newfoundland_cover.jpg
+|-- /document/
 |-- .gitignore
 ```
