@@ -11,30 +11,36 @@ Always maintain respect and understanding towards other contributors. Open sourc
 1. **Fork the Repository:** Start by forking the repository on GitHub. This allows you to have your own version of the repository to work with.
 
 2. **Clone Your Fork Locally:**
-```
+
+```bash
 git clone https://github.com/PrinceDisant/LostInNL.git
 cd LostInNL
 ```
 
 3. **Set Upstream Remote:** This helps to sync your fork with the original repository.
-```
+
+```bash
 git remote add upstream https://github.com/PrinceDisant/LostInNL.git
 ```
 
 4. **Switch to the Development Branch:** Before you start working, switch to the development branch as it's the main branch for all contributions.
-```
+
+```bash
 git checkout development
 ```
 
 5. **Sync and Update Your Fork:** Before you start working, always pull the latest changes from the main repository to avoid conflicts later.
-```
+
+```bash
 git pull upstream main
 ```
 
-5. **Create a New Branch for Your Feature:**  Always create a new branch for your changes, branching off from the development branch.
-```
+6. **Create a New Branch for Your Feature:**  Always create a new branch for your changes, branching off from the development branch.
+
+```bash
 git checkout -b feature/your-feature-name
 ```
+
 Use meaningful branch names like `feature/add-search` or `fix/header-bug`.
 
 ## Development Guidelines
