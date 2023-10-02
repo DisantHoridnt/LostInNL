@@ -13,7 +13,7 @@ Always maintain respect and understanding towards other contributors. Open sourc
 2. **Clone Your Fork Locally:**
 
 ```bash
-git clone https://github.com/PrinceDisant/LostInNL.git
+git clone https://github.com/{your github name}/LostInNL.git
 cd LostInNL
 ```
 
