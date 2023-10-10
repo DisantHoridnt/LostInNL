@@ -37,12 +37,6 @@ jobs:
         cd server
         pip install -r requirements.txt
     - name: Run Tests
-      env:
-        DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
-        DATABASE_USER: ${{ secrets.DATABASE_USER }}
-        DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
-        DATABASE_HOST: ${{ secrets.DATABASE_HOST }}
-        DATABASE_PORT: ${{ secrets.DATABASE_PORT }}
       run: |
         cd server
         python manage.py test
