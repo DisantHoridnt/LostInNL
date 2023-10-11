@@ -1,4 +1,5 @@
 from django.test import TestCase
 
-# Path: server/website/tests.py
-
+class HelloWorldTest(TestCase):
+    def test_hello_world(self):
+        self.assertTrue(True)
