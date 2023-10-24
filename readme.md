@@ -69,30 +69,63 @@ This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICEN
 
 ```bash
 /LostInNL/
-|-- CONTRIBUTING.MD
-|-- LICENSE
-|-- readme.md
-|-- /server/
-| |-- manage.py
-| |-- requirements.txt
-| |-- /website/
-| | |-- init.py
-| | |-- admin.py
-| | |-- apps.py
-| | |-- models.py
-| | |-- urls.py
-| | |-- views.py
-| | |-- /templates/
-| | | |-- base.html
-| | | |-- /website/
-| | | | |-- contact.html
-| | | | |-- index.html
-| | | | |-- listings.html
-| | | | |-- resources.html
-| | | | |-- submit.html
-| | | | |-- styles.css
-| | | | |-- scripts.js
-| | | | |-- newfoundland_cover.jpg
-|-- /document/
-|-- .gitignore
+📦frontend
+ ┣ 📂app
+ ┃ ┣ 📜favicon.ico
+ ┃ ┣ 📜globals.css
+ ┃ ┣ 📜layout.js
+ ┃ ┗ 📜page.js
+ ┣ 📂public
+ ┃ ┣ 📜next.svg
+ ┃ ┗ 📜vercel.svg
+ ┣ 📜.eslintrc.json
+ ┣ 📜.gitignore
+ ┣ 📜README.md
+ ┣ 📜jsconfig.json
+ ┣ 📜next.config.js
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜postcss.config.js
+ ┗ 📜tailwind.config.js
+📦backend
+ ┣ 📂server
+ ┃ ┣ 📂server
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜asgi.py
+ ┃ ┃ ┣ 📜settings.py
+ ┃ ┃ ┣ 📜urls.py
+ ┃ ┃ ┗ 📜wsgi.py
+ ┃ ┃ 📂website
+ ┃ ┃ ┣ 📂migrations
+ ┃ ┃ ┃ ┗ 📜__init__.py
+ ┃ ┃ ┣ 📂templates
+ ┃ ┃ ┃ ┣ 📂website
+ ┃ ┃ ┃ ┃ ┣ 📜contact.html
+ ┃ ┃ ┃ ┃ ┣ 📜index.html
+ ┃ ┃ ┃ ┃ ┣ 📜listings.html
+ ┃ ┃ ┃ ┃ ┣ 📜newfoundland_cover.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜resources.html
+ ┃ ┃ ┃ ┃ ┣ 📜scripts.js
+ ┃ ┃ ┃ ┃ ┣ 📜styles.css
+ ┃ ┃ ┃ ┃ ┗ 📜submit.html
+ ┃ ┃ ┃ ┗ 📜base.html
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜admin.py
+ ┃ ┃ ┣ 📜apps.py
+ ┃ ┃ ┣ 📜models.py
+ ┃ ┃ ┣ 📜tests.py
+ ┃ ┃ ┣ 📜urls.py
+ ┃ ┃ ┗ 📜views.py
+ ┃ ┃ 📜.DS_Store
+ ┃ ┃ 📜manage.py
+ ┃ ┃ 📜requirements.txt
+ ┣ 📜.gitignore
+📦document
+ ┣ 📜.DS_Store
+ ┣ 📜LostInNL(v0.1).pdf
+ ┣ 📜LostInNL(v1.0).pdf
+ ┗ 📜sys-arch.jpg
+📜CONTRIBUTING.MD
+📜LICENSE
+📜readme.md
 ```
